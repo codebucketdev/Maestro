@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /api
+RewriteRule ^$ - [R=404,L]

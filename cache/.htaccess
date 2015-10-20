@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /cache
+RewriteRule ^$ - [R=403,L]
