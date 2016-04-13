@@ -15,7 +15,7 @@ textarea {
    resize: none;
 }
 
-.noscript-alert { 
+.noscript-alert {
    background-color: red;
    position: static;
    width: 100%;
@@ -27,7 +27,7 @@ textarea {
    z-index: 1;
 }
 
-.noscript-alert .alert-link { 
+.noscript-alert .alert-link {
    color: white;
    text-decoration: underline;
 }
@@ -44,11 +44,11 @@ textarea {
    display: inline-block;
 }
 
-* html .clearfix { 
+* html .clearfix {
    height: 1%;
 }
 
-.clearfix { 
+.clearfix {
    display: block;
 }
 
@@ -101,8 +101,31 @@ textarea {
    margin-top: 0.7%;
 }
 
-.muted-link { 
-   text-decoration: none; 
+.muted-link {
+   text-decoration: none;
+}
+
+.navbar .navbar-divider {
+  height: 50px;
+  margin: 0 9px;
+  border-right: 1px solid #ffffff;
+  border-left: 1px solid #f2f2f2;
+}
+
+.navbar-inverse .navbar-divider {
+  border-right-color: #222222;
+  border-left-color: #111111;
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse .nav > .navbar-divider {
+    height: 1px;
+    width: 100%;
+    display: block;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #E7E7E7;
+  }
 }
 
 .navbar-search {
@@ -149,8 +172,8 @@ textarea {
    cursor: pointer;
 }
 
-.tabulator { 
-   margin-left: 10px; 
+.tabulator {
+   margin-left: 10px;
 }
 
 .align-right{
